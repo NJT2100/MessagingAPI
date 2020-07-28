@@ -1,0 +1,6 @@
+package com.example.demo.model;
+
+public enum RelationshipStatus {
+	PENDING_FIRST_SECOND, PENDING_SECOND_FIRST, FRIENDS,
+	BLOCKED_FIRST_SECOND, BLOCKED_SECOND_FIRST, BLOCKED_BOTH
+}

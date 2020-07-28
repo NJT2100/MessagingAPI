@@ -1,0 +1,18 @@
+server:
+  port: 9000
+  
+spring:
+  data:
+    cassandra:
+      keyspace-name: test
+      contact-points: 127.0.0.1
+      port: 9042
+      local-datacenter: datacenter1
+      schema-action: CREATE_IF_NOT_EXISTS
+      
+jwt:
+  secret: ",2@r_C>u1*5Tx8z"
+  expiry: 3600000
+  
+cookie:
+  expiry: 3600
